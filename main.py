@@ -8,7 +8,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from pytz import timezone
 
 # ================= CONFIG =================
-BOT_TOKEN = os.getenv("BOT_TOKEN") or "8043760109:AAEIEw5gYKg5dQj3jbEZyzLYQ-R8hphxYb4"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = -1001944918229    
 TIMEZONE = timezone("Asia/Kolkata")
 
